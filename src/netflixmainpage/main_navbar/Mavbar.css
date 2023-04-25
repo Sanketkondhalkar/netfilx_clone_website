@@ -1,0 +1,128 @@
+.navbar_cntainer {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_cntainer .left {
+  width: 50%;
+}
+.navbar_cntainer .left img {
+  height: 50px;
+  width: 150px;
+  margin-left: 100px;
+}
+.navbar_cntainer .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.navbar_cntainer .right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_cntainer .right ul li {
+  list-style: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.navbar_cntainer .right .search_input {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_cntainer .right .search_input button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.navbar_cntainer .user {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.navbar_cntainer .user .user_profile {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.navbar_cntainer .user .user_profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .logo img {
+    height: 64px;
+    width: 132px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .navbar .menu .loginbutton {
+    padding: 9px 15px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .navbar .logo {
+    height: 60px;
+    width: 170px;
+    margin-left: 30px;
+  }
+  .navbar .menu {
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+  }
+  .home_main_div h1 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .home_main_div h2 {
+    font-size: 19px;
+    margin-top: 2px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .home_main_div {
+    position: absolute;
+    height: 71vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home_main_div .home_button {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 17px;
+    width: 143px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+  }
+}/*# sourceMappingURL=Mavbar.css.map */
